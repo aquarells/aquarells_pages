@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(160, 33, 33);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+img {
+  float: left;
+}
+
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
+}
+
+#logo {
+  color: rgb(236, 183, 49);
+  margin-top: 20px;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+}
+
+#menu {
+  background-color: rgb(236, 183, 49);
+  margin-top: 20px;
+  color: white;
+  padding: 10px;
+}
+
+#topbar {
+  background-color: rgb(79, 70, 216);
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  height: 170px;
+}
+
+#topbarL {
+  float: left;
+  padding: 20px;
+  width: 138px;
+  text-align: center;
+  border-right: 2px solid rgb(236, 183, 49);
+}
+
+#topbarR {
+  float: left;
+  padding: 20px;
+  width: 760px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#sidebar {
+  float: left;
+  width: 148px;
+  min-height: 620px;
+  padding: 20px;
+  background-color: rgb(236, 183, 49);
+  text-align: center;
+  font-size: 18px;
+  border-right: 2px solid rgb(160, 33, 33);
+}
+
+#content {
+  float: left;
+  padding: 40px;
+  width: 730px;
+  background-color: rgb(236, 183, 49);
+  min-height: 580px;
+  text-align: justify;
+}
+
+#footer {
+  clear: both;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+img {
+  float: left;
+}
+
+.option {
+  float: left;
+  min-width: 50px;
+  height: 25px;
+  font-size: 18px;
+  padding: 10px;
+  border-right: 2px solid rgb(160, 33, 33);
+  opacity: 0.8;
+}
+
+.option:hover {
+  background-color: rgb(79, 70, 216);
+  cursor: pointer;
+}
+
+.optionL {
+  font-size: 18px;
+  height: 25px;
+  padding: 10px;
+  border-bottom: 2px solid rgb(160, 33, 33);
+}
+
+.optionL:hover {
+  background-color: rgb(79, 70, 216);
+  color: white;
+  cursor: pointer;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: rgb(160, 33, 33);
+}
+
+a:visited {
+  color: rgb(79, 70, 216);
+}
+
+.bigtitle {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.dottedline {
+  height: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(236, 183, 49);
+}

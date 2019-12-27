@@ -1,0 +1,26 @@
+body {
+  background-color: #90693b;
+  font-family: Verdana;
+  font-size: 20px;
+  color: black;
+}
+
+h1 {
+  font-size: 35px;
+  color: black !important;
+}
+
+/*Nieodwiedzony link*/
+a:link {
+  color: darkred;
+}
+
+/*Odwiedzony link*/
+a:visited {
+  color: brown;
+}
+
+/*Link po najechaniu kursorem*/
+a:hover {
+  color: rebeccapurple;
+}

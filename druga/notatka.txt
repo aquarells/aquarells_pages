@@ -1,0 +1,15 @@
+1. Zasada pozycjonowania divów.
+
+Do wszystkich bloków ułożonych szeregowo (czyli obok siebie) dodajemy
+zapis CSS: float: left;
+
+Do pierwszego diva, który znowu ma układać się pod spodem poprzednika, 
+dodajemy linię CSS: clear: both;
+
+Jeśli takiego diva nie ma, to dodajemy go:
+<div style="clear: both;"></div>
+
+2. <span> służy do zgrupowania elementów (np.tekstu, obrazków) zazwyczaj
+w celu przypisania im określonego stylu CSS. Nie jest on elemenetem
+blokowym, chyba że użyjemy zapisu CSS: display: block;
+[Różnica między span a div]

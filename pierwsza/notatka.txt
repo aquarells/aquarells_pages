@@ -1,0 +1,37 @@
+Notatka z lekcji pierwszej:
+
+1. CSS = Cascading Style Sheets (Kaskadowe arkusze stylów).
+Język służący do opisu formy prezentacji (wyświetlania) stron internetowych w przeglądarce.
+
+HTML = HyperText Markup Language (Hipertekstowy język znaczników).
+Język opisowy oparty na tzw. znacznikach (tagach) opisujący zawartość strony internetowej.
+
+2. Hierarchia w CSS = Kaskadowość.
+Jeżeli pojawią się wielokrotnie zdefiniowane wartości dla tej samej właściwości selektora,
+obowiązuje następująca hierarchia przykrywania:
+- styl wpisany (inline),
+- styl w dokumencie (<style>),
+- styl zewnętrzny (w pliku CSS),
+- wartość domyślna.
+
+3. Jak złamać hierarchię w CSS?
+Na końcu właściwości (przed średnikiem) wstaw napis ,,!important".
+
+4. Stylizacja hiperłącza.
+a) Nieodwiedzony link,
+a:link
+{
+    /*tutaj właściwości*/
+}
+
+b) Odwiedzony link,
+a:visited
+{
+    /*tutaj właściwości*/
+}
+
+c) Link po najechaniu kursorsem,
+a:hover
+{
+    /*tutaj właściwości*/
+}
