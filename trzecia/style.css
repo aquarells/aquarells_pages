@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(195, 188, 188);
+}
+#logo {
+  width: 1000px;
+  height: 260px;
+  margin: auto;
+  padding: 5px;
+}
+span {
+  font-size: 14px;
+  float: right;
+}
+#logo_text {
+  font-size: 26px;
+  color: #b788c7;
+  float: right;
+  height: 5px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  font-family: "Cinzel";
+}
+#logo_photo {
+  float: left;
+}
+.option {
+  float: left;
+  min-width: 50px;
+  height: 25px;
+  font-size: 18px;
+  padding: 5px;
+  border-right: 2px solid #b788c7;
+  opacity: 0.8;
+}
+#menu {
+  background-color: #b788c7;
+  color: rgb(230, 230, 230);
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#content {
+  color: rgb(121, 116, 116);
+  background-color: rgb(208, 202, 209);
+  text-align: justify;
+  min-height: 580px;
+  width: 730px;
+  margin: auto;
+  padding: 40px;
+}
+
+#footer {
+  clear: both;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
